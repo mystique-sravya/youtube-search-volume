@@ -12,7 +12,7 @@ document.getElementById('searchButton').addEventListener('click', async () => {
 });
 
 async function fetchYouTubeSearchVolume(keyword) {
-    const apiKey = 'AIzaSyAVCeqo4RcSF7MC93165x83z3L4gm0iyoo';
+    const apiKey = 'youtube_Api_Key';
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(keyword)}&key=${apiKey}`;
 
     try {
